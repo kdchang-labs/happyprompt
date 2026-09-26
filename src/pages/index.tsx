@@ -69,14 +69,6 @@ export default function Home(): ReactNode {
         <HomepageFeatures />
       </main>
       <div className="ct-newsletter-wrap">
-        <iframe
-          src="https://kdchang-ai.substack.com/embed"
-          width="100%"
-          height="320"
-          style={{ maxWidth: "680px", margin: "0 auto", display: "block" }}
-          frameBorder="0"
-          scrolling="no"
-        ></iframe>
       </div>
     </Layout>
   );
