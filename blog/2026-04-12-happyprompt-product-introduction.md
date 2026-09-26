@@ -1,7 +1,7 @@
 ---
 slug: happyprompt-product-introduction
 title: 告別重複複製貼上 Prompt！HappyPrompt 幫你一鍵儲存、管理、插入 AI 提示詞
-authors: [happycoder]
+authors: [happyprompt]
 tags: [HappyPrompt, AI, Prompt, Chrome 擴充套件, 生產力工具, AI 工具]
 date: 2026-04-12T10:00:00.000Z
 image: /img/cover-1.jpg
@@ -122,7 +122,7 @@ HappyPrompt 不只是一個書籤工具，它是你和 AI 之間的橋樑——�
 [https://www.happyprompt.net](https://www.happyprompt.net)
 
 《HappyPrompt》🔖  
-IG：https://www.instagram.com/happycoder_org  
-電子報：https://happycoder.substack.com/
+IG：https://www.instagram.com/kdchang.ai  
+電子報：https://kdchang-ai.substack.com/
 
 \#HappyPrompt #AI工具 #Prompt提示詞 #ChatGPT #Claude #Gemini #生產力 #AI效率 #職場工具

@@ -24,7 +24,7 @@ const config: Config = {
   deploymentBranch: "gh-pages",
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "happycoderorg", // Usually your GitHub org/user name.
+  organizationName: "kdchang-labs", // Usually your GitHub org/user name.
   projectName: "happyprompt", // repo
 
   onBrokenLinks: "throw",
@@ -123,15 +123,15 @@ const config: Config = {
         //   label: "職涯技能樹",
         // },
         {
-          href: "https://www.happycoder.org/resources",
+          href: "https://www.happyprompt.net/resources",
           label: "學習資源",
           position: "left",
         },
-        {
-          href: "https://facebook.com/groups/HappyCoderOrg",
-          label: "AI 程式設計交流社群",
-          position: "left",
-        },
+        // {
+        //   href: "https://facebook.com/groups/kdchang.ai",
+        //   label: "AI 程式設計交流社群",
+        //   position: "left",
+        // },
       ],
     },
     footer: {
@@ -153,17 +153,17 @@ const config: Config = {
         {
           title: "Community",
           items: [
-            {
-              label: "Facebook Group",
-              href: "https://facebook.com/groups/HappyCoderOrg",
-            },
+            // {
+            //   label: "Facebook Group",
+            //   href: "https://facebook.com/groups/kdchang.ai",
+            // },
             {
               label: "Follow us on Facebook",
-              href: "https://www.facebook.com/HappyCoderOrg",
+              href: "https://www.facebook.com/kdchang.ai",
             },
             {
               label: "Follow us on Instagram",
-              href: "https://www.instagram.com/happycoder_org",
+              href: "https://www.instagram.com/kdchang.ai",
             },
           ],
         },

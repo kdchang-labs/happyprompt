@@ -46,7 +46,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="margin-left--sm button button--secondary button--lg"
-            to="https://www.happycoder.org/resources"
+            to="https://www.happyprompt.net/resources"
           >
             開始學習
           </Link>
@@ -70,7 +70,7 @@ export default function Home(): ReactNode {
       </main>
       <div className="ct-newsletter-wrap">
         <iframe
-          src="https://happycoder.substack.com/embed"
+          src="https://kdchang-ai.substack.com/embed"
           width="100%"
           height="320"
           style={{ maxWidth: "680px", margin: "0 auto", display: "block" }}

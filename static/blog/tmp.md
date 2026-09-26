@@ -45,6 +45,6 @@
 https://www.happyprompt.net
 👋 追蹤、按讚、訂閱加分享，獲得更多職涯發展與個人成長學習資源和重點精華 🚀
 《HappyPrompt》 🔖 
-FB：https://www.facebook.com/HappyCoderOrg
-IG：https://www.instagram.com/happycoder_org
-電子報：https://happycoder.substack.com/
+FB：https://www.facebook.com/kdchan.ai
+IG：https://www.instagram.com/kdchang.ai
+電子報：https://kdchang-ai.substack.com/
