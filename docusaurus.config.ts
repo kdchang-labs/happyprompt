@@ -172,7 +172,7 @@ const config: Config = {
           items: [
             {
               label: "Contact Us",
-              to: "mailto:happyprompt.net@gmail.com",
+              to: "mailto:kdchang.ai@gmail.com",
             },
           ],
         },
