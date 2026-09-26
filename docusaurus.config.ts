@@ -123,7 +123,7 @@ const config: Config = {
         //   label: "職涯技能樹",
         // },
         {
-          href: "https://www.happyprompt.net/resources",
+          href: "/resources",
           label: "學習資源",
           position: "left",
         },
