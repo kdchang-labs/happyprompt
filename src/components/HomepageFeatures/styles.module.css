@@ -1,0 +1,178 @@
+/* ── Feature Section ── */
+.features {
+  padding: 5rem 0 4rem;
+  background: #080f0e;
+}
+
+.featuresPreamble {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.featuresPreamble h2 {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #e4f5f4;
+  margin-top: 0.5rem;
+}
+
+/* ── Glass Card ── */
+.glassCard {
+  height: 100%;
+  padding: 2rem 1.75rem;
+  border-radius: 16px;
+  background: rgba(15, 30, 28, 0.8);
+  border: 1px solid rgba(60, 189, 181, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.glassCard:hover {
+  border-color: rgba(60, 189, 181, 0.5);
+  box-shadow:
+    0 0 40px rgba(60, 189, 181, 0.15),
+    0 12px 40px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+
+/* ── Icon Wrap ── */
+.iconWrap {
+  width: 64px;
+  height: 64px;
+  background: rgba(60, 189, 181, 0.1);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  border: 1px solid rgba(60, 189, 181, 0.25);
+}
+
+.featurePng {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.cardTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #e4f5f4;
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+}
+
+.cardDesc {
+  font-size: 0.9rem;
+  color: #6b8484;
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ── Showcase Section ── */
+.showcase {
+  padding: 5rem 0 4rem;
+  background: #0d1918;
+}
+
+.sectionLabel {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionLabel h2 {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #e4f5f4;
+  margin-top: 0.5rem;
+}
+
+/* ── Showcase Alternating Rows ── */
+.showcaseRow {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}
+
+.showcaseRow:last-child {
+  margin-bottom: 0;
+}
+
+.showcaseRowReverse {
+  flex-direction: row-reverse;
+}
+
+.showcaseImageWrap {
+  flex: 1;
+  min-width: 0;
+}
+
+.showcaseImage {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(60, 189, 181, 0.15);
+  transition:
+    box-shadow 0.35s ease,
+    transform 0.35s ease;
+}
+
+.showcaseImage:hover {
+  box-shadow: 0 16px 56px rgba(60, 189, 181, 0.22);
+  transform: scale(1.015);
+}
+
+.showcaseTextWrap {
+  flex: 1;
+  min-width: 0;
+}
+
+.showcaseTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #e4f5f4;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  padding-left: 0.9rem;
+  border-left: 3px solid #3cbdb5;
+}
+
+.showcaseDesc {
+  font-size: 1rem;
+  color: #6b8484;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* ── Responsive ── */
+@media screen and (max-width: 900px) {
+  .showcaseRow,
+  .showcaseRowReverse {
+    flex-direction: column;
+    gap: 1.75rem;
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .glassCard {
+    margin-bottom: 1.25rem;
+  }
+
+  .features {
+    padding: 3.5rem 0 2.5rem;
+  }
+
+  .showcase {
+    padding: 3.5rem 0 2.5rem;
+  }
+}

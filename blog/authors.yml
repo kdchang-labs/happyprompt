@@ -1,0 +1,23 @@
+happycoder:
+  name: HappyCoder
+  title: HappyPrompt Master
+  url: https://www.happycoder.org
+  image_url: https://github.com/HappyCoderOrg.png
+  page: true
+    # customize the url of the author page at /blog/authors/<permalink>
+  socials:
+    instagram: happycoder_org
+    website: https://www.happycoder.org
+
+kdchang:
+  name: KD Chang
+  title: Founder of HappyPrompt
+  url: https://www.kdchang.net
+  image_url: https://github.com/kdchang.png
+  page: true
+    # customize the url of the author page at /blog/authors/<permalink>
+  socials:
+    x: kaidichang
+    github: kdchang
+    instagram: kdchang_net
+    website: https://www.kdchang.net

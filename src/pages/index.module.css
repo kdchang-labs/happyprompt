@@ -1,0 +1,84 @@
+/* ── Hero Banner ── */
+.heroBanner {
+  padding: 7rem 2rem 6rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      ellipse 120% 65% at 50% -5%,
+      rgba(60, 189, 181, 0.2) 0%,
+      transparent 60%
+    ),
+    #080f0e;
+}
+
+/* Dot-grid texture */
+.heroBanner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(60, 189, 181, 0.2) 1px,
+    transparent 1px
+  );
+  background-size: 28px 28px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Radial fade so dots dissolve at edges */
+.heroBanner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 90% 75% at 50% 55%,
+    transparent 25%,
+    #080f0e 80%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Container above pseudo-elements */
+.heroBanner :global(.container) {
+  position: relative;
+  z-index: 2;
+}
+
+/* Gradient clip title */
+.heroBanner :global(.hero__title) {
+  background: linear-gradient(135deg, #ffffff 15%, #b2ede9 60%, #3cbdb5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: clamp(1.6rem, 5vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  margin-bottom: 1.2rem;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.heroBanner :global(.hero__subtitle) {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 0 auto 0.5rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 4.5rem 1.5rem 3.5rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
